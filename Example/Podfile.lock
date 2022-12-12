@@ -1,0 +1,29 @@
+PODS:
+  - ZZComponents/Color (1.0.0):
+    - ZZComponents/Core
+  - ZZComponents/Core (1.0.0)
+  - ZZComponents/Font (1.0.0):
+    - ZZComponents/Core
+  - ZZComponents/Toast (1.0.0):
+    - ZZComponents/Color
+    - ZZComponents/Core
+    - ZZComponents/Font
+  - ZZReaderViewController (1.0.0)
+
+DEPENDENCIES:
+  - ZZComponents/Toast (from `../../ZZComponents`)
+  - ZZReaderViewController (from `../`)
+
+EXTERNAL SOURCES:
+  ZZComponents:
+    :path: "../../ZZComponents"
+  ZZReaderViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZComponents: f274c061fa925782edbf9425a9c4f6783e482ea8
+  ZZReaderViewController: e7958b30ad6e2dcc3dfde0b081849aaab08af721
+
+PODFILE CHECKSUM: 56f0242469106e3a78ac1acc5963ea241e49d937
+
+COCOAPODS: 1.11.3
