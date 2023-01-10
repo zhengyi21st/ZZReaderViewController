@@ -11,3 +11,9 @@ import UIKit
 public protocol ZZReaderItemViewController: UIViewController {
     var indexPath: IndexPath { get }
 }
+
+public extension ZZReaderItemViewController {
+    var isReverse: Bool {
+        return self.parent is ZZReaderPageViewController.ReverseItemViewController
+    }
+}
